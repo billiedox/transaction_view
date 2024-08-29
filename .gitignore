@@ -1,0 +1,54 @@
+# Node.js / Express (backend)
+backend/node_modules/
+backend/.env
+backend/logs/
+backend/tmp/
+backend/dist/
+
+# React / Vite (frontend)
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/dist/
+frontend/.vite/
+
+# Cloudflare (transaction-worker)
+transaction-worker/node_modules/
+transaction-worker/.env
+transaction-worker/dist/
+transaction-worker/.cloudflare/
+transaction-worker/.wrangler/
+
+# General
+*.log
+*.tmp
+*.swp
+.DS_Store
+*.sqlite
+*.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs_analysis.dat
+*.ncb
+*.gdb
+*.suo
+*.ncb
+*.log
+*.db
+*.sqlite
+
+# Build artifacts
+*.dll
+*.exe
+*.o
+*.so
+*.dylib
+*.a
+*.lib
+
+# OS-specific
+Thumbs.db
+Desktop.ini
